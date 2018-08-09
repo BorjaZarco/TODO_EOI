@@ -5,7 +5,7 @@ var TODOschema = mongoose.Schema({
     text: {
         type: String,
         required: [true, 'El atributo text es requerido.'],
-        minlength: [10, 'Haz de introducir mínimo 10 caracteres.'],
+        // minlength: [10, 'Haz de introducir mínimo 10 caracteres.'],
         validation: {
             validator: yesNiggasSync,
             message : 'Oye, no permito TODOs que contengan la palabra nigga'
