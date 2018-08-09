@@ -1,0 +1,12 @@
+.containter {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-group {
+    margin: 50px;
+}
+
+
