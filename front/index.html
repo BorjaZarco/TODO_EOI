@@ -39,7 +39,7 @@
             $.ajax(
                 {
                     type : 'POST',
-                    url : 'http://localhost:5000/api/todos',
+                    url : 'http://www.api.test-todo-eoi.tk/api/todos',
                     data : JSON.stringify(TODO),
                     contentType : 'application/json',
                     dataType : 'json'
@@ -56,7 +56,7 @@
     }
 
     function cargarTODOS(){
-        $.get('http://localhost:5000/api/todos')
+        $.get('http://www.api.test-todo-eoi.tk/api/todos')
             .then(todosServer => {
                 todos = todosServer;
                 pintarEnPantalla();
